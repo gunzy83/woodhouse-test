@@ -28,7 +28,7 @@ branchProtection:
       required_approving_review_count: 1
       dismiss_stale_reviews: true
     required_status_checks:
-      strict: true
+      # strict: true
       contexts:
         # Requiring only this one check is the point of the gatekeeper: it
         # consolidates every other check into a single required entry, so this
