@@ -5,3 +5,6 @@ gatekeeper:
   strictChecks: []
   ignoredChecks:
     - advisory
+
+autoApproval:
+  enabled: false
